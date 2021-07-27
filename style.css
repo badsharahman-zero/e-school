@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: #585859;
+}
+
+/*navbar*/
+.navbar {
+    padding-bottom: 3%;
+}
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-brand img {
+    width: 180px;
+}
+.navbar-nav {
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgba(0,0,0,.55);
+}
+.nav-item {
+	padding: 0 10px;
+}
+.container-fluid {
+    padding: 0;
+}
+.navbar .btn {
+    padding: 12px 28px;
+}
+
+/*button*/
+.btn {
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-success {
+	color: #fff;
+	background-color: #21B573;
+	border-color: transparent;
+}
+.btn-success:focus {
+	color: #fff;
+	background-color: #21B573;
+	border-color: transparent;
+	box-shadow: 0 0 0 .2rem #21B57324;
+}
+
+/*header*/
+.orange {
+    color: #FD511A;
+}
+header .row h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.colored {
+    color: #21B573;
+}
+header {
+    background-color: #F0FFF0;
+    padding-top: 25px;
+}
+header .row {
+    padding-bottom: 2.5rem;
+}
+header .row .col-lg-6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col-xl-5 {
+    padding-right: 55px;
+}
+header p {
+    color: #6C6B6B;
+}
+header .row .btn {
+    padding: 12px 36px;
+}
+
+/*features*/
+.features .row h2 {
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 15px;
+}
+.features .row .box h2:nth-of-type() {
+    padding-top: 10px;
+}
+.features img{
+    width: 25%;
+}
+.box {
+    background: #F8FFFB;
+    border-radius: 10px;
+    padding: 50px 0 25px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.features .row {
+	padding: 2.5rem 0 2rem;
+}
+.features .row .box:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.features .row .col-md-6 {
+    margin-bottom: 25px;
+}
+
+/*card*/
+.cards h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #413960;
+}
+.card-img-top {
+    padding: 20px 0;
+}
+.cards h5 {
+    font-weight: 500;
+    color: #413960;
+    font-size: 24px;
+}
+.cards .btn {
+    padding: 8px 28px;
+}
+.card-footer p {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.card-footer img {
+    width: 24px;
+    height: 24px;
+}
+.cards .card-footer .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 7px;
+}
+.card-footer{
+    background: none;
+    border: none;
+    padding: 1.5rem 0;
+}
+.cards .card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: none;
+    padding: 0 20px;
+}
+.card-body {
+    padding: 0;
+}
+.cards .row {
+    margin: 10px 0 30px;
+}
+
+/*testimonial*/
+.testimonial h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+.testimonial p {
+    color: black;
+    margin: 0;
+}
+.testimonial .row {
+    margin: 25px 0 50px;
+}
+.testimonial {
+    margin-top: 80px;
+}
+.testimonial .t-img {
+    height: 120px;
+    width: 135px;
+    margin: 20px 15px;
+}
+.testimonial .row .col-md-7 {
+    margin: 0 30px;
+}
+
+/*footer*/
+footer ul {
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: white;
+}
+footer {
+    background: #282531;
+    color: white;
+    padding: 50px 0 30px;
+}
+footer .row p {
+    color: white;
+}
+footer ul li:first-of-type {
+    font-weight: 700;
+    font-size: 18px;
+}
+footer .copy {
+    color: #CDCDCD;
+    margin: 0;
+}
+footer .row {
+    padding-bottom: 65px;
+}
+footer .row .col-lg-5 {
+    padding-right: 80px;
+}
+footer .row .col-lg-2 {
+    padding-left: 0;
+    margin-right: 30px;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer .col-6 .row {
+    padding-bottom: 0;
+}
+@media only screen and (max-width: 991px) {
+    footer .row .col-lg-5 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer .row .col-lg-2 {
+        padding-left: unset;
+        margin-right: unset;
+    }
+}
