@@ -239,7 +239,6 @@ footer .col-6 .row {
 }
 @media only screen and (max-width: 991px) {
     footer .row .col-lg-5 {
-        padding-left: 0px;
         padding-right: 0px;
     }
     footer .row .col-lg-2 {
